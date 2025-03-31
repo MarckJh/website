@@ -52,12 +52,43 @@ body {
     right: 0;
     margin-right: 20px;
     width: 250px;
-    aspect-ratio: 3/4;
     border-radius: 15px;
 }
 
-@media screen and (max-width: 400px) {
-    .images {
-        transform: scale(.2);
+.colorChange {
+    transition: 200ms;
+    animation: rgb linear infinite 5s;
+}
+
+.hidden {
+    opacity: 0;
+    transition: 400ms;
+}
+
+@keyframes rgb {
+    0% {
+        color: #589eb6;
+    }
+    20% {
+        color: #add8e6;
+    }
+    40% {
+        color: #74c1db;
+    }
+    60% {
+        color: #64b1ca;
+    }
+    100% {
+        color: #589eb6;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .picture-1 {
+        width: 200px;
+        height: 200px;
+    }
+    .picture-2 {
+        width: 200px;
     }
 }
