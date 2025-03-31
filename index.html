@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <script src="script.js"></script>
     <title>ycxirf</title>
 </head>
 <body>
+    <div id="imageToggle" class="unhider"></div>
+    <div id="imageContainer" class="images">
+        <img class="picture-1" src="images/Frix.jpg" alt="Frix.jpg" srcset="">
+        <img class="picture-2" src="images/Frixcy.jpg" alt="Frix.jpg" srcset="">
+    </div>
     <div class="box">
-        <p class="text">No.1 Party Anthem</p>
+        <div class="text" id="playPause">No.1 Party Anthem</div>
+        <audio src="audio/partyanthem.flac" id="myAudio"></audio>
     </div>
 </body>
 </html>

@@ -24,3 +24,40 @@ body {
     font-size: 40px;
     font-family: "Roboto", sans-serif;
 }
+
+.unhider {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 5px;
+    width: 5px;
+    cursor: pointer;
+}
+
+.picture-1 {
+    position: fixed;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    margin-left: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+}
+
+.picture-2 {
+    position: fixed;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    margin-right: 20px;
+    width: 250px;
+    aspect-ratio: 3/4;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 400px) {
+    .images {
+        transform: scale(.2);
+    }
+}
