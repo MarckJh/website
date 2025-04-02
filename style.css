@@ -6,10 +6,8 @@
     box-sizing: border-box;
 }
 
-
 body {
-    background-color: rgb(255, 191, 202);
-    margin: 0;
+    background-color: rgb(204, 204, 204);
     padding: 0;
 }
 
@@ -22,12 +20,12 @@ body {
 }
 
 .box-2{
-    background-color: rgb(255, 191, 202);
+    background-color: rgb(204, 204, 204);
     width: 10px;
 }    
 
 #secret {
-    color: rgb(255, 206, 213);
+    color: rgb(207, 207, 207);
     font-size: 8px;
     user-select: none;
 }
@@ -40,7 +38,7 @@ body {
 }
 
 .conf {
-    background-color: rgb(255, 191, 202);
+    background-color: rgb(201, 201, 201);
 }
 
 .text-1 {
@@ -48,12 +46,17 @@ body {
     top: 100%;
     left: 94%;
     font-size: 10px;
-    color: rgb(255, 196, 205);
-    user-select: none;
+    color: rgb(201, 201, 201);
     user-select: none;
     font-family: "Roboto", sans-serif;
 }
 
+#lyrics {
+    font-size: 20px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+}
 
 .unhider {
     position: fixed;
@@ -73,15 +76,7 @@ body {
     width: 235px;
     border-radius: 50%;
     pointer-events: none;
-    user-drag: none;
-    -webkit-touch-callout: none;
     -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
     transform: translate(-50%, 0) translateZ(0);
     will-change: transform;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -100,16 +95,8 @@ body {
     width: 250px;
     border-radius: 120px;
     pointer-events: none;
-    user-drag: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
     user-select: none;
+    -webkit-user-select: none;
     pointer-events: none;
 }
 
@@ -122,16 +109,8 @@ body {
     width: 250px;
     border-radius: 13px;
     pointer-events: none;
-    user-drag: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
     user-select: none;
+    -webkit-user-select: none;
     pointer-events: none;
 }
 
