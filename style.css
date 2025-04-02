@@ -57,7 +57,17 @@ body {
     width: 250px;
     border-radius: 120px;
     pointer-events: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
     user-select: none;
+    pointer-events: none;
 }
 
 .picture-2 {
@@ -69,7 +79,17 @@ body {
     width: 250px;
     border-radius: 13px;
     pointer-events: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
     user-select: none;
+    pointer-events: none;
 }
 
 .colorChange {
