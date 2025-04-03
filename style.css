@@ -115,8 +115,9 @@ body {
 }
 
 .colorChange {
-    transition: 200ms;
-    animation: rgb linear infinite 5s;
+    transition: color 200ms ease-in-out;
+    animation: smooth-rgb 6s ease-in-out infinite;
+    will-change: color;
 }
 
 .hidden {
@@ -124,21 +125,21 @@ body {
     transition: 150ms;
 }
 
-@keyframes rgb {
+@keyframes smooth-rgb {
     0% {
-        color: rgb(50, 180, 255);
+        color: rgb(0, 162, 255);
     }
     20% {
-        color: rgb(66, 211, 255);
+        color: rgb(37, 194, 241);
     }
     40% {
-        color: rgb(92, 203, 255);
+        color: rgb(64, 181, 235);
     }
     60% {
-        color: rgb(87, 179, 255);
+        color: rgb(64, 186, 235);
     }
     100% {
-        color: rgb(72, 157, 255);
+        color: rgb(30, 121, 224);
     }
 }
 
