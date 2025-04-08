@@ -25,11 +25,12 @@ if (audio.paused) {
   audio.play()
 .then(() => {
   console.log("Song playing.")
-  playPauseBtn.classList.toggle("colorChange")
+  playPauseBtn.classList.add("colorChange")
+
 })
 .catch(error => {
-  // Auto-play was prevented
-  // Show paused UI.
+  console.error('Playback failed:', error);
+  playPauseBtn.classList.remove("playing");
 });
 
 }
@@ -37,7 +38,7 @@ if (audio.paused) {
 else {
   audio.pause();
   console.log("Song paused.")
-  playPauseBtn.classList.toggle("colorChange")
+  playPauseBtn.classList.remove("colorChange")
       }
     });
   });
