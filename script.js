@@ -28,8 +28,10 @@ if (audio.paused) {
   playPauseBtn.classList.toggle("colorChange")
 })
 .catch(error => {
-  console.error('Playback failed:', error);
+  // Auto-play was prevented
+  // Show paused UI.
 });
+
 }
 
 else {
