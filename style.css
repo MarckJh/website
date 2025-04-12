@@ -6,9 +6,14 @@
     box-sizing: border-box;
 }
 
+html, body {
+    touch-action: manipulation;
+    overflow: hidden;
+    height: 100%;
+}
+
 body {
     background-color: rgb(204, 204, 204);
-    padding: 0;
 }
 
 .box {
@@ -43,8 +48,8 @@ body {
 
 .text-1 {
     position: absolute;
-    top: 100%;
-    left: 94%;
+    top: 98.2%;
+    left: 94.8%;
     font-size: 10px;
     color: rgb(201, 201, 201);
     user-select: none;
@@ -97,7 +102,6 @@ body {
     pointer-events: none;
     user-select: none;
     -webkit-user-select: none;
-    pointer-events: none;
 }
 
 .picture-2 {
@@ -111,7 +115,6 @@ body {
     pointer-events: none;
     user-select: none;
     -webkit-user-select: none;
-    pointer-events: none;
 }
 
 .colorChange {
