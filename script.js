@@ -24,12 +24,13 @@ playPauseBtn.addEventListener('click', function() {
 if (audio.paused) {
   audio.play()
 .then(() => {
-  console.log("Song playing.")
-  playPauseBtn.classList.add("colorChange")
-
+  console.log("Song playing.");
+  playPauseBtn.classList.add("colorChange");
+  playPauseBtn.classList.add("playing");
 })
 .catch(error => {
   console.error('Playback failed:', error);
+  playPauseBtn.classList.remove("playing");
   playPauseBtn.classList.remove("playing");
 });
 
@@ -39,6 +40,7 @@ else {
   audio.pause();
   console.log("Song paused.")
   playPauseBtn.classList.remove("colorChange")
+  playPauseBtn.classList.remove("playing");
       }
     });
   });
