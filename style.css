@@ -117,6 +117,19 @@ body {
     -webkit-user-select: none;
 }
 
+.picture-3 {
+    position: fixed;
+    transform: translateY(-50%);
+    top: 78%;
+    right: 40.2%;
+    margin-right: 20px;
+    width: 250px;
+    border-radius: 10px;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
 .colorChange {
     transition: color 200ms ease-in-out;
     animation: smooth-rgb 6s ease-in-out infinite;
