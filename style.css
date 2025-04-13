@@ -63,19 +63,25 @@ body {
     user-select: none;
 }
 
+.box-toggler {
+    background: transparent;
+}
+
 .unhider {
+    opacity: 0;
     position: fixed;
     top: 0;
     right: 0;
     height: 5px;
     width: 5px;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .album {
     position: absolute;
     top: 10%;
-    left: 50%;
+    left: 49.9%;
     margin: 0;
     height: 235px;
     width: 235px;
@@ -119,12 +125,15 @@ body {
 
 .picture-3 {
     position: fixed;
-    transform: translateY(-50%);
-    top: 78%;
-    right: 40.4%;
+    transform: translateX(-50%);
+    top: 58%;
+    left: 50%;
     margin-right: 20px;
-    width: 250px;
-    border-radius: 10px;
+    height: 310px;
+    width: 310px;
+    max-width: 90%;
+    object-fit: cover;
+    border-radius: 15px;
     pointer-events: none;
     user-select: none;
     -webkit-user-select: none;
@@ -138,7 +147,7 @@ body {
 
 .hidden {
     opacity: 0;
-    transition: 150ms;
+    transition: 100ms;
 }
 
 @keyframes smooth-rgb {
@@ -166,6 +175,10 @@ body {
     }
     .picture-2 {
         width: 200px;
+    }
+    .picture-3 {
+        height: 330px;
+        width: 310px;
     }
     .album {
         height: 235px;
