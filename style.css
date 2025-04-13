@@ -64,7 +64,7 @@ body {
 }
 
 .box-toggler {
-    background: transparent;
+    background-color: rgb(204, 204, 204);
 }
 
 .unhider {
