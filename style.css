@@ -72,10 +72,9 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    height: 5px;
-    width: 5px;
+    height: 1px;
+    width: 1px;
     cursor: pointer;
-    z-index: 9999;
 }
 
 .album {
