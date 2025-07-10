@@ -128,11 +128,11 @@ body {
     top: 58%;
     left: 50%;
     margin-right: 20px;
-    height: 310px;
-    width: 310px;
+    height: 300px;
+    width: 320px;
     max-width: 90%;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 20px;
     pointer-events: none;
     user-select: none;
     -webkit-user-select: none;
