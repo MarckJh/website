@@ -125,7 +125,7 @@ body {
 .picture-3 {
     position: fixed;
     transform: translateX(-50%);
-    top: 58%;
+    top: 60%;
     left: 50%;
     margin-right: 20px;
     height: 300px;
@@ -176,11 +176,11 @@ body {
         width: 200px;
     }
     .picture-3 {
-        height: 330px;
-        width: 310px;
+        height: 230px;
+        width: 250px;
     }
     .album {
-        height: 235px;
-        width: 235px;
+        height: 200px;
+        width: 200px;
     }
 }
