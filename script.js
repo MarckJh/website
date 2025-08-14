@@ -5,10 +5,10 @@ const playPauseBtn = document.getElementById('playPause')
 const toggleButton = document.getElementById('toggleButton')
 const imageContainer = document.getElementById('imageContainer')
 
-toggleButton.addEventListener('click', function(){
+/* toggleButton.addEventListener('click', function(){
   console.log("Toggled pictures!")
-  imageContainer.classList.toggle('hidden')
-})
+  imageContainer.classList.toggle('hidden') 
+}) */
 
 if (!audio) {
     console.error('Audio element not found!');
